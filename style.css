@@ -147,5 +147,8 @@ section {
 .text-feature {
   color: black;
 }
+.border-warning {
+  height: 30px;
+}
 
 /* -------------------------------------------------- */
