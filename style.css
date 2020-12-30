@@ -1,3 +1,66 @@
+.background {
+  background-image: url("img/background-home.jpg");
+  background-size: cover;
+}
+
+.creative {
+  margin-left: 70px;
+  margin-top: 150px;
+
+}
+
+.navbar-nav{
+  margin-left: auto !important;
+}
+
+.login{
+  width: 100px;
+}
+
+.page1 h5{
+  
+  color: rgb(94, 94, 94);
+}
+
+.page1 h1{
+  font
+  font-size: +50px;
+  margin-bottom: 20px;
+}
+
+.background .btn{
+  margin-top: 80px;
+  margin-right: 40px;
+  width: 150px;
+  
+}
+
+.page2{
+  margin-top: 100px;
+}
+
+.page2 .card{
+  background-color: rgb(0, 153, 255);
+  color: azure;
+}
+
+.page2 .col-6{}
+
+.page3 {
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.page3 .col-7{
+  margin-top: 100px;
+}
+
+.bgp {
+  background: #edf6fd;
+  margin-bottom: 10px;
+  padding-top: 50px;
+}
 .jumbotron {
   padding-top: 50px;
   padding-bottom: 50px;
