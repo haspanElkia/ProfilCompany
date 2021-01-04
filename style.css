@@ -163,12 +163,66 @@ section {
   height: 30px;
 }
 
-/*  | *********** Bagian Footer ********** |*/
-.container-footer {
-  margin: 50px auto;
-  box-sizing: border-box;
+/* ---------------------------------------------------- */
+/*  * ********************************************** * */
+/*  | 10. Awal Section Footer ********************** |*/
+/*  * ********************************************** */
+/*  | *********** Awal Section Footer ************ |*/
+.section-footer {
   display: flex;
+  margin: 20px auto;
+  background-color: #0d6efd;
+  color: #ffffff;
+  padding: 50px;
+  text-align: left;
+  justify-content: space-between;
+  border: 1px;
+  border-radius: 5px;
 }
+
+.readmore {
+  margin: 12px;
+}
+/*  | *********** AkhirSection Footer *********** |*/
+/*                                                */
+/*  | ** Bagian Footer ** ********************* |*/
+.container-footer {
+  text-align: left;
+}
+
+.kolom {
+  box-sizing: border-box;
+}
+
+.kolom.robovision {
+  flex: 3;
+}
+
+.kolom.privacy-tos {
+  flex: 3;
+}
+
+.kolom.navigate {
+  flex: 3;
+}
+
+.kolom.contact-us {
+  flex: 3;
+}
+
+/*  | *********** RESPONSIVE ********** |*/
+@media (min-width: 600px) {
+  .container-footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .kolom {
+    width: 30%;
+  }
+}
+
 /*  | *********** Bagian Footer ********** |*/
 
 /*  | *********** CSS ANGGRIAN ********** |*/
@@ -184,4 +238,11 @@ section {
 /*  | *********** CSS ANGGRIAN ********** |*/
 /*  | *********** CSS ANGGRIAN ********** |*/
 /*  | *********** CSS ANGGRIAN ********** |*/
-/* -------------------------------------------------- */
+/* ---------------------------------------------------- */
+/*  * ********************************************** * */
+/*  | 10. Awal Section Footer ********************** |*/
+/*  * ********************************************** */
+/*  | *********** Awal Section Footer ************ |*/
+/*  | *********** AkhirSection Footer *********** |*/
+/*                                                */
+/*  | ** Bagian Footer ** ********************* |*/
