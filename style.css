@@ -50,18 +50,7 @@
   margin-top: 100px;
 }
 
-/*  | *********** CSS ANGGRIAN ********** |*/
-/*  | *********** CSS ANGGRIAN ********** |*/
-/*  | *********** CSS ANGGRIAN ********** |*/
-/*  | *********** CSS ANGGRIAN ********** |*/
-/*  | *********** CSS ANGGRIAN ********** |*/
-/*  | *********** CSS ANGGRIAN ********** |*/
-/*  | *********** CSS ANGGRIAN ********** |*/
-/*  | *********** CSS ANGGRIAN ********** |*/
-/*  | *********** CSS ANGGRIAN ********** |*/
-/*  | *********** CSS ANGGRIAN ********** |*/
-/*  | *********** CSS ANGGRIAN ********** |*/
-/*  | *********** CSS ANGGRIAN ********** |*/
+/*  | *********** *********** *********** CSS ANGGRIAN  *********** *********** *********** |*/
 
 .bgp {
   background: #edf6fd;
@@ -195,7 +184,8 @@ section {
 }
 
 .kolom.robovision {
-  flex: 3;
+  flex: 3.5;
+  padding-right: 10px;
 }
 
 .kolom.privacy-tos {
@@ -203,7 +193,7 @@ section {
 }
 
 .kolom.navigate {
-  flex: 3;
+  flex: 2.5;
 }
 
 .kolom.contact-us {
