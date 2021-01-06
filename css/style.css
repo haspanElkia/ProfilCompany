@@ -2,61 +2,68 @@
 body {
   background-color: #b3e8f7;
   padding-top: 50px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
 }
 
 /* 6. Section Our Services */
+/* Header Our Services */
 .our-services {
   text-align: center;
 }
 p.text-our-services {
   max-width: 500px;
   margin: 0 auto;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
-/* Latihan 4 */
-.container-empat {
+/* Card Our Services */
+/* img-our-services */
+.img-our-services {
+  max-width: 100%;
+  height: auto;
+  align-items: center;
+  padding-top: 25px;
+}
+/* Content-our-services */
+.container-our-services {
   margin: 50px auto;
 }
 .card {
   border: 1px solid #aaaaaa;
   border-radius: 10px;
-  background-color: #eeeeee;
+  background-color: #ffffff;
   overflow: hidden;
   margin: 10px;
   box-sizing: border-box;
+  box-shadow: #aaaaaa;
 }
 .card .header {
-  height: 150px;
-  background-color: #666666;
+  height: 250px;
+  background-color: #ffffff;
 }
 .card .content {
   text-align: center;
-  padding-bottom: 20px;
-}
-
-/* Latihan 2 */
-.container-dua {
-  margin: 50px auto;
-}
-
-.layanan {
-  padding: 20px;
   box-sizing: border-box;
-  margin-bottom: 20px;
+  padding: 20px;
 }
 
-.layanan.satu {
-  background-color: rgb(0, 110, 255);
+/* Font Card Our Services */
+h6 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #13287e;
+  font-family: "Poppins", sans-serif;
+}
+.bold {
+  font-weight: 600;
 }
 
-.layanan.dua {
-  background-color: rgb(0, 255, 76);
+p {
+  opacity: 80%;
 }
 
-.layanan.tiga {
-  background-color: rgb(255, 153, 0);
-}
 /* ---------------------------------------------------- */
 /*  * ********************************************** * */
 /*  | 10. Awal Section Footer ********************** |*/
@@ -109,20 +116,10 @@ p.text-our-services {
 /*  | *********** RESPONSIVE ********** |*/
 @media (min-width: 600px) {
   /*Responsive Our Services */
-  .container-dua {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .layanan {
-    width: 30%;
-  }
   .card {
-    width: 50%;
     display: flex;
   }
-
-  .container-empat {
+  .container-our-services {
     display: flex;
   }
 
