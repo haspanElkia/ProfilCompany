@@ -1,9 +1,11 @@
-.section {
-  background-color: #e60d0d;
+/* SECTION */
+body {
+  background-color: #b3e8f7;
+  padding-top: 50px;
 }
 
+/* 6. Section Our Services */
 .our-services {
-  margin: 50px auto;
   text-align: center;
 }
 p.text-our-services {
@@ -14,41 +16,54 @@ p.text-our-services {
 
 /* Latihan 4 */
 .container-empat {
-  width: 800px;
   margin: 50px auto;
-  display: flex;
 }
-
 .card {
   border: 1px solid #aaaaaa;
   border-radius: 10px;
   background-color: #eeeeee;
   overflow: hidden;
   margin: 10px;
-  flex: 1;
+  box-sizing: border-box;
 }
-
 .card .header {
   height: 150px;
   background-color: #666666;
 }
-
 .card .content {
   text-align: center;
   padding-bottom: 20px;
 }
 
-.card.besar {
-  transform: scale(1.12);
+/* Latihan 2 */
+.container-dua {
+  margin: 50px auto;
 }
 
+.layanan {
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.layanan.satu {
+  background-color: rgb(0, 110, 255);
+}
+
+.layanan.dua {
+  background-color: rgb(0, 255, 76);
+}
+
+.layanan.tiga {
+  background-color: rgb(255, 153, 0);
+}
 /* ---------------------------------------------------- */
 /*  * ********************************************** * */
 /*  | 10. Awal Section Footer ********************** |*/
 /*  * ********************************************** */
 /*  | *********** Awal Section Footer ************ |*/
 .section-footer {
-  display: flex;
+  display: b;
   margin: 20px auto;
   background-color: #0d6efd;
   color: #ffffff;
@@ -59,9 +74,6 @@ p.text-our-services {
   border-radius: 5px;
 }
 
-.readmore {
-  margin: 12px;
-}
 /*  | *********** AkhirSection Footer *********** |*/
 /*                                                */
 /*  | ** Bagian Footer ** ********************* |*/
@@ -90,16 +102,44 @@ p.text-our-services {
   flex: 3;
 }
 
+.rounded-pill {
+  white-space: nowrap;
+}
+
 /*  | *********** RESPONSIVE ********** |*/
 @media (min-width: 600px) {
+  /*Responsive Our Services */
+  .container-dua {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .layanan {
+    width: 30%;
+  }
+  .card {
+    width: 50%;
+    display: flex;
+  }
+
+  .container-empat {
+    display: flex;
+  }
+
+  /*Responsive Footer */
   .container-footer {
     display: flex;
     justify-content: space-between;
     text-align: left;
   }
 
-  .kolom {
-    width: 30%;
+  .section-footer {
+    display: flex;
+    align-items: center;
+  }
+
+  .readmore {
+    margin: 12px;
   }
 }
 
